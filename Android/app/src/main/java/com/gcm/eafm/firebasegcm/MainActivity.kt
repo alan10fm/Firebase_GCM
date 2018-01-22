@@ -2,6 +2,7 @@ package com.gcm.eafm.firebasegcm
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.crashlytics.android.Crashlytics
 
 class MainActivity : AppCompatActivity() {
 
@@ -9,4 +10,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
 }
